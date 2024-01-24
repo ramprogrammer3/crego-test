@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table,td,th{
+    border: 1px solid blue;
+}
+
+td{
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "id": "87e3",
+      "key": "credit_Score",
+      "output": {
+        "value": "3000",
+        "operator": "<=",
+        "score": "29999",
+        "combinator": "or"
+      }
+    },
+    {
+      "id": "cb9a",
+      "key": "account_balance ",
+      "output": {
+        "value": "11111",
+        "operator": "<",
+        "score": "00000",
+        "combinator": "and"
+      }
+    }
+  ],
+  "combinator": "and"
+}
