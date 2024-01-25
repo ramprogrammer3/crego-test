@@ -1,25 +1,29 @@
 {
   "rules": [
-    {
-      "id": "87e3",
-      "key": "credit_Score",
-      "output": {
-        "value": "3000",
-        "operator": "<=",
-        "score": "29999",
-        "combinator": "or"
+      {
+          "key": "age",
+          "output": {
+              "value": 60,
+              "operator": ">=",
+              "score": 50
+          }
+      },
+      {
+          "key": "age",
+          "output": {
+              "value": 40,
+              "operator": ">=",
+              "score": 100
+          }
+      },
+      {
+          "key": "account_balance",
+          "output": {
+              "value": 100000,
+              "operator": ">=",
+              "score": 200
+          }
       }
-    },
-    {
-      "id": "cb9a",
-      "key": "account_balance ",
-      "output": {
-        "value": "11111",
-        "operator": "<",
-        "score": "00000",
-        "combinator": "and"
-      }
-    }
   ],
   "combinator": "and"
 }
