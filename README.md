@@ -18,7 +18,7 @@ Start the application using the following command:
 ```
 $ npm run dev 
 ```
-json-server --watch db.json --port 3031
+$ json-server --watch db.json --port 3031
 ```
 Open the application in your web browser by visiting the following URL:
 ```
